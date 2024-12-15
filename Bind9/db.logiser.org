@@ -1,0 +1,13 @@
+$TTL    1D
+@       IN      SOA     ns1.logiser.org. admin.logiser.org. (
+        1               ; Serial
+        12h             ; Refresh
+        15m             ; Retry
+        3w              ; Expire
+        2h  )           ; Negative Cache TTL
+
+;       Registros NS
+
+        IN      NS      ns1.logiser.org.
+ns1     IN      A       10.0.2.17
+www     IN      A       10.0.2.17
